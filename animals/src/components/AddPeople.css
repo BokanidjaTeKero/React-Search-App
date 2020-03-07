@@ -1,0 +1,66 @@
+
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.801);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 30%;
+    background-color: rgba(0, 110, 255, 0.993);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+form > label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+form > input {
+    max-width: 300px;
+    padding-top: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+
+    background-color: rgba(0, 110, 255, 0.993);
+    color: white;
+    border: 1px solid #39A9DB;
+    transition: 0.3s ease;
+}
+
+form > input:focus {
+    border: 1px solid white;
+    background-color: rgba(50, 136, 248, 0.993);
+    border-radius: 10px;
+}
+
+form > input:hover {
+    
+    border: 1px solid white;
+    background-color: rgba(50, 136, 248, 0.993);
+    transform: translateY(-3px);
+}
+
+::placeholder {
+    color: white;
+}
+
+.form-controls {
+    padding-top: 10px;
+}
